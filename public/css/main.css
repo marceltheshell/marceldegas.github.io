@@ -6,14 +6,27 @@ body {
     background-size: 100%;
 }
 
+@font-face {
+    font-family: duke;
+    src: url(/public/fonts/Stellar-bold.otf);
+}
+
 h1 {
+    font-size: 100px;
     display: inline;
+    color: white;
+    font-family: duke !important;
+}
+
+p {
+    font-size: 30px;
     color: black;
 }
 
 .container {
     padding-top: 250px;
 }
+
 
 .typed-cursor{
     opacity: 1;
@@ -36,3 +49,4 @@ h1 {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
