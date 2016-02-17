@@ -1,16 +1,17 @@
 {
   "name": "marceltheshell.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio page for Marcel Degas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marceltheshell/marceltheshell.github.io.git"
   },
-  "author": "",
+  "author": "Marcel Degas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marceltheshell/marceltheshell.github.io/issues"
@@ -20,5 +21,8 @@
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "nodemon": "^1.8.1"
+  }, 
+  "engines": {
+    "node": "4.2.4"
   }
 }
