@@ -1,0 +1,21 @@
+{
+  "name": "marceltheshell.github.io",
+  "homepage": "https://github.com/marceltheshell/marceltheshell.github.io",
+  "authors": [
+    "Marcel Degas <marcel.degas@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "~1.1.1"
+  }
+}
