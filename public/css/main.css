@@ -38,7 +38,53 @@ body{
 }
 
 .jquery-box {
-    height: 200px;
+    height: 103px;
+}
+
+.icons-parent {
+    position: relative;
+    height: 679px;
+    width: 557px;
+}
+
+.git-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:77%;
+    left:60%;
+ 
+}
+
+.medium-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:89%;
+    left:60%;
+
+}
+
+.linked-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:77%;
+    left:86%;
+
+}
+
+.email-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:89%;
+    left:85%;
+
+}
+
+.twitter-box {
+    width: 489px;
+}
+
+img.deer {
+    width: 20px;
 }
 
 h1 {
@@ -56,10 +102,10 @@ div.about-me {
 
 body {
     background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
-    /*give a specific height and width for the backgound image so it doesn't respond to size changes*/
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-y:-97px;
+    background-position-x:-8px;
+    background-size: 1300px 850px;
 }
 
 
@@ -71,5 +117,9 @@ ul {
 img.icons {
     width:50px;
 
+/*@mediaquery{
+    if view is 800px
+
+}*/
 
 
