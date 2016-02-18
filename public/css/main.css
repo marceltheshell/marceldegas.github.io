@@ -3,27 +3,27 @@ html {
 }
 
 body{
-    height: 100%;
+    height: 675px;
     margin: 0;
 }
 
 .parent-container {
-    height:100%;
+    height:675px;
     position: relative;
 }
 
 .row {
     position: absolute;
     display: table;
-    width: 100%;
-    height: 100%;
+    width: 1277px;
+    height: 675px;
 }
 
 .col-1 {
 
     width: 45%;
     float: left;
-    height: 100%;
+    height: 675px;
 
 }
 
@@ -31,9 +31,9 @@ body{
 
     width: 55%;
     float: left;
-    height: 100%;
-    width: calc(55% - 200px);
-    padding: 30px 0 0 13px;
+    height: 675px;
+    width: calc(55% - 210px);
+    padding: 45px 0 0 13px;
 
 }
 
@@ -43,7 +43,7 @@ body{
 
 .icons-parent {
     position: relative;
-    height: 679px;
+    height: 675px;
     width: 557px;
 }
 
@@ -98,6 +98,7 @@ div.about-me {
     font-size: 20px;
     color: black;
     font-family: 'Special Elite', cursive;
+    padding: 0 33px 0 13px;
 }
 
 body {
@@ -105,7 +106,7 @@ body {
     background-repeat: no-repeat;
     background-position-y:-97px;
     background-position-x:-8px;
-    background-size: 1300px 850px;
+    background-size: 1300px 830px;
 }
 
 
@@ -116,10 +117,189 @@ ul {
 
 img.icons {
     width:50px;
+}
 
-/*@mediaquery{
-    if view is 800px
+@media(min-width: 413px) and (max-width: 768px) {
+    body {
+        background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
+        background-repeat: no-repeat;
+        background-position-y:-44px;
+        background-position-x:-301px;
+        background-size: 1514px 1067px;
+    
+    }
+    .parent-container {
+        height:1024px;
+        position: relative;
+    }
+    .row {
+        position: absolute;
+        display: table;
+        width: 768px;
+        height: 1024px;
+    }
+    .col-1 {
+        width: 45%;
+        float: left;
+        height: 1024px;
+    }
+    .icons-parent {
+        position: relative;
+        height: 1042px;
+        width: 768px;
+    }
+    .col-2 {
 
-}*/
+        width: 55%;
+        float: left;
+        height: 1024px;
+        width: calc(55% - 57px);
+        padding: 143px 0 0 56px;
+
+    }
+    h1 {
+        font-size: 35px;
+        display: inline;
+        color: black;
+        font-family: 'Special Elite', cursive;
+    }
+    div.about-me {
+        font-size: 15px;
+        color: black;
+        font-family: 'Special Elite', cursive;
+        padding: 23px 33px 38px 13px;
+    }
+    .git-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:73%;
+        left:13%;
+    }
+    .medium-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:83%;
+        left:13%;
+    }
+    .linked-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:73%;
+        left:35%;
+    }
+    .email-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:83%;
+        left:35%;
+    }
+    .twitter-box {
+        width: 346px;
+    }
+
+}
+
+@media(max-width: 412px) {
+    body {
+        background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
+        background-repeat: no-repeat;
+        background-position-y:-67px;
+        background-position-x:-297px;
+        background-size: 1015px 720px;
+    }
+    img.icons {
+        width:30px;
+    }
+    
+    body{
+        height: 627px;
+        margin: 0;
+    }
+
+    .parent-container {
+        height:627px;
+        position: relative;
+    }
+
+    .row {
+        position: absolute;
+        display: table;
+        width: 400px;
+        height: 627px;
+    }
+
+    .col-1 {
+
+        width: 45%;
+        float: left;
+        height: 627px;
+
+    }
+
+    .col-2 {
+
+        width: 55%;
+        float: left;
+        height: 627px;
+        width: calc(55% - 210px);
+        padding: 45px 0 0 13px;
+
+    }
+
+    .jquery-box {
+        height: 103px;
+    }
+
+    .icons-parent {
+        position: relative;
+        height: 627px;
+        width: 557px;
+    }
+
+    .git-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:67%;
+        left:18%;
+    }
+    .medium-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:73%;
+        left:15%;
+    }
+    .linked-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:85%;
+        left:15%;
+    }
+    .email-icon {
+        position: absolute;
+        transform: translate(-50%);
+        top:79%;
+        left:15%;
+    }
+    .twitter-box {
+        width: 489px;
+    }
+    img.deer {
+        width: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        display: inline;
+        color: black;
+        font-family: 'Special Elite', cursive;
+    }
+    div.about-me {
+        font-size: 20px;
+        color: black;
+        font-family: 'Special Elite', cursive;
+        padding: 0 33px 0 13px;
+    }
+        
+}
+
 
 

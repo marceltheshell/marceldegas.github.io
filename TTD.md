@@ -22,6 +22,8 @@ relative col-1 and absolute the icons
 -do absolute for the rest of percentages??
 
 Challenge
+-get name to work 
+-give a more sleek filter over the whole thing
 -do jquery animation hover-over something in phone
 
 

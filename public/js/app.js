@@ -6,7 +6,7 @@ $(document).ready(function() {
 	    startDelay: 100, 
 	    loop: true,
 	    backDelay: 500,
-	    showCursor: true,    	
+	    showCursor: false,    	
 	  });
 	});
 });
