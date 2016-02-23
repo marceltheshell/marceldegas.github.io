@@ -102,7 +102,7 @@ div.about-me {
 }
 
 body {
-    background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
+    background-image: url(/public/img/coffee-smartphone-desk-pen.jpg);
     background-repeat: no-repeat;
     background-position-y:-97px;
     background-position-x:-8px;
