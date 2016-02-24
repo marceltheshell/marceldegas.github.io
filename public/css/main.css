@@ -20,21 +20,17 @@ body{
 }
 
 .col-1 {
-
     width: 45%;
     float: left;
     height: 675px;
-
 }
 
 .col-2 {
-
     width: 55%;
     float: left;
     height: 675px;
     width: calc(55% - 210px);
     padding: 45px 0 0 13px;
-
 }
 
 .jquery-box {
@@ -52,7 +48,6 @@ body{
     transform: translate(-50%);
     top:77%;
     left:60%;
- 
 }
 
 .medium-icon {
@@ -60,7 +55,6 @@ body{
     transform: translate(-50%);
     top:89%;
     left:60%;
-
 }
 
 .linked-icon {
@@ -68,7 +62,6 @@ body{
     transform: translate(-50%);
     top:77%;
     left:86%;
-
 }
 
 .email-icon {
@@ -76,7 +69,6 @@ body{
     transform: translate(-50%);
     top:89%;
     left:85%;
-
 }
 
 .twitter-box {
@@ -109,7 +101,6 @@ body {
     background-size: 1300px 830px;
 }
 
-
 ul {
     list-style-type: none;
     margin:0;
@@ -120,36 +111,40 @@ img.icons {
 }
 
 @media(min-width: 413px) and (max-width: 768px) {
+    
     body {
         background-image: url(../img/workDesk.jpg);
         background-repeat: no-repeat;
         background-position-y:-44px;
         background-position-x:-301px;
         background-size: 1514px 1067px;
-    
     }
+
     .parent-container {
         height:1024px;
         position: relative;
     }
+
     .row {
         position: absolute;
         display: table;
         width: 768px;
         height: 1024px;
     }
+
     .col-1 {
         width: 45%;
         float: left;
         height: 1024px;
     }
+
     .icons-parent {
         position: relative;
         height: 1042px;
         width: 768px;
     }
-    .col-2 {
 
+    .col-2 {
         width: 55%;
         float: left;
         height: 1024px;
@@ -157,42 +152,49 @@ img.icons {
         padding: 143px 0 0 56px;
 
     }
+
     h1 {
         font-size: 35px;
         display: inline;
         color: black;
         font-family: 'Special Elite', cursive;
     }
+
     div.about-me {
         font-size: 15px;
         color: black;
         font-family: 'Special Elite', cursive;
         padding: 23px 33px 38px 13px;
     }
+
     .git-icon {
         position: absolute;
         transform: translate(-50%);
         top:73%;
         left:13%;
     }
+
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
         top:83%;
         left:13%;
     }
+
     .linked-icon {
         position: absolute;
         transform: translate(-50%);
         top:73%;
         left:35%;
     }
+
     .email-icon {
         position: absolute;
         transform: translate(-50%);
         top:83%;
         left:35%;
     }
+
     .twitter-box {
         width: 346px;
     }
@@ -207,6 +209,7 @@ img.icons {
         background-position-x:-297px;
         background-size: 1015px 720px;
     }
+
     img.icons {
         width:30px;
     }
@@ -229,21 +232,17 @@ img.icons {
     }
 
     .col-1 {
-
         width: 45%;
         float: left;
         height: 627px;
-
     }
 
     .col-2 {
-
         width: 55%;
         float: left;
         height: 627px;
         width: calc(55% - 210px);
         padding: 45px 0 0 13px;
-
     }
 
     .jquery-box {
@@ -262,36 +261,43 @@ img.icons {
         top:67%;
         left:18%;
     }
+
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
         top:73%;
         left:15%;
     }
+
     .linked-icon {
         position: absolute;
         transform: translate(-50%);
         top:85%;
         left:15%;
     }
+
     .email-icon {
         position: absolute;
         transform: translate(-50%);
         top:79%;
         left:15%;
     }
+
     .twitter-box {
         width: 489px;
     }
+
     img.deer {
         width: 20px;
     }
+
     h1 {
         font-size: 50px;
         display: inline;
         color: black;
         font-family: 'Special Elite', cursive;
     }
+
     div.about-me {
         font-size: 20px;
         color: black;
