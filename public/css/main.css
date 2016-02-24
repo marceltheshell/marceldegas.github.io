@@ -102,7 +102,7 @@ div.about-me {
 }
 
 body {
-    background-image: url(/public/img/coffee-smartphone-desk-pen.jpg);
+    background-image: url(../img/workDesk.jpg);
     background-repeat: no-repeat;
     background-position-y:-97px;
     background-position-x:-8px;
@@ -121,7 +121,7 @@ img.icons {
 
 @media(min-width: 413px) and (max-width: 768px) {
     body {
-        background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
+        background-image: url(../img/workDesk.jpg);
         background-repeat: no-repeat;
         background-position-y:-44px;
         background-position-x:-301px;
@@ -201,7 +201,7 @@ img.icons {
 
 @media(max-width: 412px) {
     body {
-        background-image: url(/static/img/coffee-smartphone-desk-pen.jpg);
+        background-image: url(../img/workDesk.jpg);
         background-repeat: no-repeat;
         background-position-y:-67px;
         background-position-x:-297px;
