@@ -10,35 +10,35 @@ $(document).ready(function() {
 	  });
 	});
 	$(".git-icon").hover(function(){
-	  $('.phone-git-icon').show();
-		}, function() {
-	  		$('.phone-git-icon').hide();
+	  $('.phone-git-icon').fadeIn("slow"); 
+	}, function() {
+		$('.phone-git-icon').fadeOut("slow");
 	});
 	$(".email-icon").hover(function(){
-	  $('.phone-email-icon').show();
+	  $('.phone-email-icon').fadeIn("slow");
 		}, function() {
-	  		$('.phone-email-icon').hide();
+	  		$('.phone-email-icon').fadeOut("slow");
 	});
 	$(".linked-icon").hover(function(){
-	  $('.phone-linked-icon').show();
+	  $('.phone-linked-icon').fadeIn("slow");
 		}, function() {
-	  		$('.phone-linked-icon').hide();
+	  		$('.phone-linked-icon').fadeOut("slow");
 	});
 	$(".medium-icon").hover(function(){
-	  $('.phone-medium-icon').show();
+	  $('.phone-medium-icon').fadeIn("slow");
 		}, function() {
-	  		$('.phone-medium-icon').hide();
+	  		$('.phone-medium-icon').fadeOut("slow");
 	});
 	$(".medium-word").hover(function(){
-	  $('.phone-medium-icon').show();
+	  $('.phone-medium-icon').fadeIn("slow");
 		}, function() {
-	  		$('.phone-medium-icon').hide();
+	  		$('.phone-medium-icon').fadeOut("slow");
 	});
-	$(".klassroom-word").hover(function(){
-	  $('.phone-medium-icon').show();
-		}, function() {
-	  		$('.phone-medium-icon').hide();
-	});
+	// $(".klassroom-word").hover(function(){
+	//   $('.phone-medium-icon').fadeIn("slow");
+	// 	}, function() {
+	//   		$('.phone-medium-icon').fadeOut("slow");
+	// });
 });
 
 
