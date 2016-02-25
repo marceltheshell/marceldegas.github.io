@@ -71,8 +71,53 @@ body{
     left:85%;
 }
 
+.phone-git-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-medium-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-linked-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-email-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
 .twitter-box {
     width: 489px;
+}
+
+.hidden-box {
+    position: absolute;
+    transform: translate(-50%);
+    top:44%;
+    left:74%;
+    height:110px;
+    width:197px;
+    background-color: black;
+}
+h1.hidden-message {
+    color: white;
 }
 
 img.deer {
@@ -108,6 +153,10 @@ ul {
 
 img.icons {
     width:50px;
+}
+
+img.phone-icons {
+    width:80px;
 }
 
 @media(min-width: 413px) and (max-width: 768px) {
