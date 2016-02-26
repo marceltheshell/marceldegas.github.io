@@ -6,6 +6,8 @@ Challenge
 
 Maybe
 -change background to a wheat field
+-CSS CRT screen effect for the phone
+- add a (small image in url) of elmo!
 
 
 media queries
