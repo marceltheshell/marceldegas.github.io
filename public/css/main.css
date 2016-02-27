@@ -51,6 +51,7 @@ h1 {
 
 .jquery-box {
     height: 103px;
+    text-align: center;
 }
 
 .icons-parent {
@@ -192,7 +193,6 @@ img.phone-icons {
     }
 
     .col-2 {
-        width: 55%;
         float: left;
         /*height: 1024px;*/
         width: calc(55% - 57px);
@@ -253,11 +253,11 @@ img.phone-icons {
 @media(max-width: 414px) {
     body {
         background-image: url(../img/workDesk.jpg);
-        background-color: blue;
         background-repeat: no-repeat;
         background-position-y:-67px;
         background-position-x:-305px;
-        background-size: 1015px 720px;
+        /*change width*/
+        background-size: 1015px 805px;
         height: 627px;
         margin: 0;
     }
@@ -266,72 +266,73 @@ img.phone-icons {
         width:30px;
     }
 
-    .parent-container {
-        height:627px;
+    #parent-container {
+        height:709px;
         width: 387;
         position: relative;
     }
 
-    .row {
+    #row {
         position: absolute;
         display: table;
-        width: 400px;
+        width: 387px;
         height: 627px;
     }
 
-    .col-1 {
-        width: 45%;
+    #col-1 {
+        width: 38%;
         float: left;
         height: 627px;
     }
 
-    .col-2 {
-        width: 55%;
+    #col-2 {
         float: left;
-        height: 627px;
-        width: calc(55% - 210px);
-        padding: 45px 0 0 13px;
+        height: 638px;
+        width: calc(55% - 7px);
+        padding: 71px 0 0 13px;
     }
 
     .jquery-box {
         height: 103px;
+        text-align: center;
     }
 
-    .icons-parent {
+    #icons-parent {
         position: relative;
-        height: 627px;
-        width: 557px;
+        height: 709px;
+        width: 145px;
     }
 
     .git-icon {
         position: absolute;
         transform: translate(-50%);
-        top:92%;
-        left:13%;
+        top:82%;
+        left:157%;
     }
 
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
-        top:73%;
-        left:13%;
+        top:82%;
+        left:202%;
     }
 
     .linked-icon {
         position: absolute;
         transform: translate(-50%);
-        top:85%;
-        left:13%;
+        top:89%;
+        left:202%;
     }
 
     .email-icon {
         position: absolute;
         transform: translate(-50%);
-        top:79%;
-        left:13%;
+        top:89%;
+        left:157%;
     }
 
     .twitter-box {
+        display: none;
         width: 489px;
     }
 
@@ -340,17 +341,18 @@ img.phone-icons {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 38px;
         display: inline;
         color: black;
         font-family: 'Special Elite', cursive;
     }
 
     div.about-me {
-        font-size: 20px;
+        font-size: 16px;
         color: black;
         font-family: 'Special Elite', cursive;
-        padding: 0 33px 0 13px;
+        padding: 9px 0 0 3px;
+        line-height: 158%;
     }
         
 }
