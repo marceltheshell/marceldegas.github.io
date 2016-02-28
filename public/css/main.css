@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    /*background-color: black !important;*/
     background-image: url(../img/workDesk.jpg);
     background-repeat: no-repeat;
     background-position-y:-97px;
@@ -125,20 +126,27 @@ h1 {
 }
 
 .hidden-box {
+    /*display: none;*/
     position: absolute;
     transform: translate(-50%);
-    top:44%;
-    left:74%;
+    top:35%;
+    left:73%;
     height:110px;
     width:197px;
-    background-color: black;
+    /*background-color: black;*/
 }
-h1.hidden-message {
-    color: white;
-}
+
 
 img.deer {
     width: 20px;
+}
+
+a:visited {
+    color:#000;
+}  
+
+a:hover   {
+    color:#000;
 }
 
 div.about-me {
@@ -156,7 +164,163 @@ img.phone-icons {
     width:80px;
 }
 
-/*tablet*/
+/*////////////////////////////////DESKTOP////////////////////////////////////////*/
+@media(min-width: 1291px) and (max-width: 1600px) {
+
+body {
+    background-image: url(../img/workDesk.jpg);
+    background-repeat: no-repeat;
+    background-position-y:-97px;
+    background-position-x:-8px;
+    background-size: 1600px 1026px;
+    height: 1000px;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 50px;
+    display: inline;
+    color: black;
+    font-family: 'Special Elite', cursive;
+}
+
+.parent-container {
+    height:1026px;
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    display: table;
+    width: 1600px;
+    height: 1026px;
+}
+
+.col-1 {
+    width: 45%;
+    float: left;
+    height: 1026px;
+}
+
+.col-2 {
+    width: 55%;
+    float: left;
+    height: 1026px;
+    width: calc(55% - 277px);
+    padding: 106px 0 0 13px;
+}
+
+.jquery-box {
+    height: 103px;
+    text-align: center;
+}
+
+.icons-parent {
+    position: relative;
+    height: 1026px;
+    width: 557px;
+}
+
+.git-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:64%;
+    left:74%;
+}
+
+.medium-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:75%;
+    left:74%;
+}
+
+.linked-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:64%;
+    left:106%;
+}
+
+.email-icon {
+    position: absolute;
+    transform: translate(-50%);
+    top:75%;
+    left:106%;
+}
+
+.phone-git-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-medium-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-linked-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.phone-email-icon {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:46%;
+    left:74%;
+}
+
+.twitter-box {
+    width: 489px;
+}
+
+.hidden-box {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:44%;
+    left:74%;
+    height:110px;
+    width:197px;
+    background-color: black;
+}
+
+
+img.deer {
+    width: 20px;
+}
+
+div.about-me {
+    font-size: 20px;
+    color: black;
+    font-family: 'Special Elite', cursive;
+    padding: 0 33px 0 13px;
+}
+
+img.icons {
+    width:65px;
+}
+
+img.phone-icons {
+    width:80px;
+}
+}
+
+
+
+/*////////////////////////////////TABLET////////////////////////////////////////*/
 @media(min-width: 415px) and (max-width: 768px) {
     
     body {
@@ -249,7 +413,7 @@ img.phone-icons {
 }
 
 
-/*phone*/
+/*////////////////////////////////PHONE////////////////////////////////////////*/
 @media(max-width: 414px) {
     body {
         background-image: url(../img/workDesk.jpg);
