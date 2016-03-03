@@ -9,11 +9,11 @@ $(document).ready(function() {
 	    showCursor: false,    	
 	  });
 	});
-	$(".git-icon").hover(function(){
-	  $('.phone-git-icon').fadeIn("slow"); 
-	}, function() {
-		$('.phone-git-icon').fadeOut("slow");
-	});
+	// $(".git-icon").hover(function(){
+	//   $('.phone-git-icon').fadeIn("slow"); 
+	// }, function() {
+	// 	$('.phone-git-icon').fadeOut("slow");
+	// });
 	$(".email-icon").hover(function(){
 	  $('.phone-email-icon').fadeIn("slow");
 		}, function() {

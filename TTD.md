@@ -1,12 +1,11 @@
+Next
+-tilt the phone image so that it completely fits within the phone (hide the samsung)
+-make the images appear faster
+-have the images appear when the screen turns on aka have the images inside of the screen
+
+
+
 
 Challenge 
 -icons should shake intermittedly to let people know they are functional 
-- add a (small image in url) of elmo!
 -give a more sleek filter over the whole thing
-
-
-
-
-
-
--CSS CRT screen effect for the phone

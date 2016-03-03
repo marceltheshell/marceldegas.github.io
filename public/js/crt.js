@@ -3,6 +3,7 @@ $(document).ready(function() {
   var prefix = "data:image/jpg;base64,";
   var maxErrors = 200;
 
+  
   function update() {
     var corrupted = data;
     if (Math.random() > 0.8) {
@@ -15,8 +16,13 @@ $(document).ready(function() {
     img.attr("src", prefix + corrupted);
 
   }
+  $(".git-icon").hover(function(){
+    $("#switch").css(//propertyname, value ); 
+  }, function() {
+    $('.phone-email-icon').fadeOut("slow");
+  });
   update();
-  setInterval(update, 26);
+  // setInterval(update, 26);
 
 });
 
