@@ -16,11 +16,11 @@ $(document).ready(function() {
     img.attr("src", prefix + corrupted);
 
   }
-  $(".git-icon").hover(function(){
-    $("#switch").css(//propertyname, value ); 
-  }, function() {
-    $('.phone-email-icon').fadeOut("slow");
-  });
+  // $(".git-icon").hover(function(){
+  //   $("#switch").css(//propertyname, value ); 
+  // }, function() {
+  //   $('.phone-email-icon').fadeOut("slow");
+  // });
   update();
   // setInterval(update, 26);
 
