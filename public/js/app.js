@@ -14,26 +14,26 @@ $(document).ready(function() {
 	// }, function() {
 	// 	$('.phone-git-icon').fadeOut("slow");
 	// });
-	$(".email-icon").hover(function(){
-	  $('.phone-email-icon').fadeIn("slow");
-		}, function() {
-	  		$('.phone-email-icon').fadeOut("slow");
-	});
-	$(".linked-icon").hover(function(){
-	  $('.phone-linked-icon').fadeIn("slow");
-		}, function() {
-	  		$('.phone-linked-icon').fadeOut("slow");
-	});
-	$(".medium-icon").hover(function(){
-	  $('.phone-medium-icon').fadeIn("slow");
-		}, function() {
-	  		$('.phone-medium-icon').fadeOut("slow");
-	});
-	$(".medium-word").hover(function(){
-	  $('.phone-medium-icon').fadeIn("slow");
-		}, function() {
-	  		$('.phone-medium-icon').fadeOut("slow");
-	});
+	// $(".email-icon").hover(function(){
+	//   $('.phone-email-icon').fadeIn("slow");
+	// 	}, function() {
+	//   		$('.phone-email-icon').fadeOut("slow");
+	// });
+	// $(".linked-icon").hover(function(){
+	//   $('.phone-linked-icon').fadeIn("slow");
+	// 	}, function() {
+	//   		$('.phone-linked-icon').fadeOut("slow");
+	// });
+	// $(".medium-icon").hover(function(){
+	//   $('.phone-medium-icon').fadeIn("slow");
+	// 	}, function() {
+	//   		$('.phone-medium-icon').fadeOut("slow");
+	// });
+	// $(".medium-word").hover(function(){
+	//   $('.phone-medium-icon').fadeIn("slow");
+	// 	}, function() {
+	//   		$('.phone-medium-icon').fadeOut("slow");
+	// });
 	// $(".klassroom-word").hover(function(){
 	//   $('.phone-medium-icon').fadeIn("slow");
 	// 	}, function() {

@@ -45,7 +45,7 @@ h1 {
 .col-2 {
     width: 55%;
     float: left;
-    height: 675px;
+    height: 630px;
     width: calc(55% - 210px);
     padding: 45px 0 0 13px;
 }
@@ -71,7 +71,7 @@ h1 {
 .medium-icon {
     position: absolute;
     transform: translate(-50%);
-    top:89%;
+    top:87%;
     left:60%;
 }
 
@@ -126,14 +126,17 @@ h1 {
 }
 
 .hidden-box {
-    /*display: none;*/
+    display: inline-block;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
     position: absolute;
-    transform: translate(-50%);
-    top:35%;
-    left:73%;
-    height:110px;
-    width:197px;
-    /*background-color: black;*/
+    /*transform: translate(-50%);*/
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    background-color: #303030;
+    border-radius: 5%;
 }
 
 
@@ -146,18 +149,33 @@ a:visited {
 }  
 
 a:hover   {
-    color:#000;
+    color:#08D;
 }
 
 div.about-me {
     font-size: 20px;
-    color: black;
     font-family: 'Special Elite', cursive;
-    padding: 0 33px 0 13px;
+    padding: 0 33px 14px 13px;
 }
 
 img.icons {
     width:50px;
+}
+
+img.card-medium-icon {
+    width: 65px;
+}
+
+img.card-email-icon {
+    width: 42px;
+}
+
+img.card-linked-icon {
+    width:42px;
+}
+
+img.card-git-icon {
+    width: 42px;
 }
 
 img.phone-icons {
