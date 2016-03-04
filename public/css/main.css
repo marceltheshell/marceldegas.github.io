@@ -126,7 +126,8 @@ h1 {
 }
 
 .hidden-box {
-    display: inline-block;
+    display: none;
+    /*display: inline-block;*/
     -webkit-transform: rotate(2deg);  
     transform: rotate(2deg);
     position: absolute;
@@ -348,6 +349,18 @@ img.phone-icons {
         background-position-x:-301px;
         background-size: 1514px 1088px;
         height: 1024px;
+    }
+
+    .hidden-box {
+    display: none;
+    position: absolute;
+    transform: translate(-50%);
+    top:44%;
+    left:6.3%;
+    height:171px;
+    width:217px;
+    background-color: #303030;
+    border-radius: 5%;
     }
 
     .parent-container {
