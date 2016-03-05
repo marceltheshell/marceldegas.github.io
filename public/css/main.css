@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    /*background-color: black !important;*/
     background-image: url(../img/workDesk.jpg);
     background-repeat: no-repeat;
     background-position-y:-97px;
@@ -66,6 +65,7 @@ h1 {
     transform: translate(-50%);
     top:77%;
     left:60%;
+
 }
 
 .medium-icon {
@@ -126,8 +126,8 @@ h1 {
 }
 
 .hidden-box {
-    display: none;
-    /*display: inline-block;*/
+    z-index: 1;
+    background-color: #303030;
     -webkit-transform: rotate(2deg);  
     transform: rotate(2deg);
     position: absolute;
@@ -136,10 +136,143 @@ h1 {
     left:52%;
     height:123px;
     width:248px;
-    background-color: #303030;
     border-radius: 5%;
 }
 
+.git-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/git-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.linked-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/linked-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.email-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/email-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.medium-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/medium-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.winestar-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/winestar-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.mfa-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/mfa-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.klassroom-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/klassroom-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.twitter-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/twitter-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
+
+.resume-phone-background {
+    z-index: 2;
+    display: none;
+    background-image: url(../img/resume-screenshot.png);
+    background-size: cover;
+    -webkit-transform: rotate(2deg);  
+    transform: rotate(2deg);
+    position: absolute;
+    top:42.8%;
+    left:52%;
+    height:123px;
+    width:248px;
+    border-radius: 5%;
+}
 
 img.deer {
     width: 20px;
@@ -184,14 +317,14 @@ img.phone-icons {
 }
 
 /*////////////////////////////////DESKTOP////////////////////////////////////////*/
-@media(min-width: 1291px) and (max-width: 1600px) {
+@media(min-width: 1291px) {
 
 body {
     background-image: url(../img/workDesk.jpg);
     background-repeat: no-repeat;
     background-position-y:-97px;
     background-position-x:-8px;
-    background-size: 1600px 1026px;
+    background-size: 1850px 1244px;
     height: 1000px;
     margin: 0;
 }
@@ -212,7 +345,7 @@ h1 {
 .row {
     position: absolute;
     display: table;
-    width: 1600px;
+    width: 1843px;
     height: 1026px;
 }
 
@@ -244,28 +377,28 @@ h1 {
 .git-icon {
     position: absolute;
     transform: translate(-50%);
-    top:64%;
-    left:74%;
+    top:82.5%;
+    left:86%;
 }
 
 .medium-icon {
     position: absolute;
     transform: translate(-50%);
-    top:75%;
-    left:74%;
+    top:92.5%;
+    left:86%;
 }
 
 .linked-icon {
     position: absolute;
     transform: translate(-50%);
-    top:64%;
+    top:82.5%%;
     left:106%;
 }
 
 .email-icon {
     position: absolute;
     transform: translate(-50%);
-    top:75%;
+    top:92.5%;
     left:106%;
 }
 
@@ -325,7 +458,7 @@ div.about-me {
     font-size: 20px;
     color: black;
     font-family: 'Special Elite', cursive;
-    padding: 0 33px 0 13px;
+    padding: 0 33px 46px 13px;
 }
 
 img.icons {
@@ -419,7 +552,7 @@ img.phone-icons {
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
-        top:83%;
+        top:82%;
         left:13%;
     }
 
@@ -451,7 +584,6 @@ img.phone-icons {
         background-repeat: no-repeat;
         background-position-y:-67px;
         background-position-x:-305px;
-        /*change width*/
         background-size: 1015px 805px;
         height: 627px;
         margin: 0;
@@ -459,6 +591,10 @@ img.phone-icons {
 
     img.icons {
         width:30px;
+    }
+
+    #hidden-box {
+        display: none;
     }
 
     #parent-container {
@@ -501,21 +637,21 @@ img.phone-icons {
     .git-icon {
         position: absolute;
         transform: translate(-50%);
-        top:82%;
+        top:79%;
         left:157%;
     }
 
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
-        top:82%;
+        top:77.5%;
         left:202%;
     }
 
     .linked-icon {
         position: absolute;
         transform: translate(-50%);
-        top:89%;
+        top:88.3%;
         left:202%;
     }
 
