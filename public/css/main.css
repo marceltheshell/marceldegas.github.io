@@ -232,7 +232,7 @@ h1 {
 .klassroom-phone-background {
     z-index: 2;
     display: none;
-    background-image: url(../img/klassroom-screenshot1.png);
+    background-image: url(../img/klassroom-screenshot.png);
     background-size: cover;
     -webkit-transform: rotate(2deg);  
     transform: rotate(2deg);
