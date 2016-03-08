@@ -9,57 +9,25 @@ $(document).ready(function() {
 	    showCursor: false,    	
 	  });
 	});
-	
-	$(".git-icon").hover(function(){
-	  	$('.git-phone-background').css('display','block');
-	}, function() {
-		$('.git-phone-background').css('display','none');
-	});
-	$(".linked-icon").hover(function(){
-	  	$('.linked-phone-background').css('display','block');
-	}, function() {
-		$('.linked-phone-background').css('display','none');
-	});
-	$(".medium-icon").hover(function(){
-	  	$('.medium-phone-background').css('display','block');
-	}, function() {
-		$('.medium-phone-background').css('display','none');
-	});
-	$(".share-word").hover(function(){
-	  	$('.medium-phone-background').css('display','block');
-	}, function() {
-		$('.medium-phone-background').css('display','none');
-	});
-	$(".email-icon").hover(function(){
-	  	$('.email-phone-background').css('display','block');
-	}, function() {
-		$('.email-phone-background').css('display','none');
-	});
-	$(".winestar-word").hover(function(){
-	  	$('.winestar-phone-background').css('display','block');
-	}, function() {
-		$('.winestar-phone-background').css('display','none');
-	});
-	$(".mfa-word").hover(function(){
-	  	$('.mfa-phone-background').css('display','block');
-	}, function() {
-		$('.mfa-phone-background').css('display','none');
-	});
-	$(".klassroom-word").hover(function(){
-	  	$('.klassroom-phone-background').css('display','block');
-	}, function() {
-		$('.klassroom-phone-background').css('display','none');
-	});
-	$(".twitter-word").hover(function(){
-	  	$('.twitter-phone-background').css('display','block');
-	}, function() {
-		$('.twitter-phone-background').css('display','none');
-	});
-	$(".resume-word").hover(function(){
-	  	$('.resume-phone-background').css('display','block');
-	}, function() {
-		$('.resume-phone-background').css('display','none');
-	});
+
+	function changePhoneBackground(hoverIcon, phoneBackground) {
+		$(hoverIcon).hover(function(){
+		  	$(phoneBackground).css('display','block');
+		}, function() {
+			$(phoneBackground).css('display','none');
+		});
+	}
+
+	changePhoneBackground(".git-icon", ".git-phone-background")
+	changePhoneBackground(".linked-icon", ".linked-phone-background")
+	changePhoneBackground(".medium-icon", ".medium-phone-background")
+	changePhoneBackground(".email-icon", ".email-phone-background")
+	changePhoneBackground(".share-word", ".medium-phone-background")
+	changePhoneBackground(".winestar-word", ".winestar-phone-background")
+	changePhoneBackground(".mfa-word", ".mfa-phone-background")
+	changePhoneBackground(".klassroom-word", ".klassroom-phone-background")
+	changePhoneBackground(".twitter-word", ".twitter-phone-background")
+	changePhoneBackground(".resume-word", ".resume-phone-background")
 });
 
 

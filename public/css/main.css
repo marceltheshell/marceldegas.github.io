@@ -337,6 +337,7 @@ h1 {
     font-family: 'Special Elite', cursive;
 }
 
+
 .parent-container {
     height:1026px;
     position: relative;
@@ -402,37 +403,6 @@ h1 {
     left:106%;
 }
 
-.phone-git-icon {
-    display: none;
-    position: absolute;
-    transform: translate(-50%);
-    top:46%;
-    left:74%;
-}
-
-.phone-medium-icon {
-    display: none;
-    position: absolute;
-    transform: translate(-50%);
-    top:46%;
-    left:74%;
-}
-
-.phone-linked-icon {
-    display: none;
-    position: absolute;
-    transform: translate(-50%);
-    top:46%;
-    left:74%;
-}
-
-.phone-email-icon {
-    display: none;
-    position: absolute;
-    transform: translate(-50%);
-    top:46%;
-    left:74%;
-}
 
 .twitter-box {
     width: 489px;
@@ -485,19 +455,156 @@ img.phone-icons {
     }
 
     .hidden-box {
-    display: none;
-    position: absolute;
-    transform: translate(-50%);
-    top:44%;
-    left:6.3%;
-    height:171px;
-    width:217px;
-    background-color: #303030;
-    border-radius: 5%;
+        z-index: 1;
+        background-color: #303030;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+        left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
     }
 
+    .git-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/git-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+        left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .linked-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/linked-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+        left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .email-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/email-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+        left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .medium-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/medium-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .winestar-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/winestar-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .mfa-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/mfa-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .klassroom-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/klassroom-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .twitter-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/twitter-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+    .resume-phone-background {
+        z-index: 2;
+        display: none;
+        background-image: url(../img/resume-screenshot.png);
+        background-size: cover;
+        -webkit-transform: rotate(2deg);  
+        transform: rotate(2deg);
+        position: absolute;
+        top:44.1%;
+         left:12%;
+        height:168px;
+        width:290px;
+        border-radius: 5%;
+    }
+
+
     .parent-container {
-        /*height:1024px;*/
+        
         position: relative;
     }
 
@@ -517,7 +624,7 @@ img.phone-icons {
     .icons-parent {
         position: relative;
         height: 1042px;
-        width: 768px;
+        width: 377px;
     }
 
     .col-2 {
@@ -546,28 +653,28 @@ img.phone-icons {
         position: absolute;
         transform: translate(-50%);
         top:73%;
-        left:13%;
+        left:26%;
     }
 
     .medium-icon {
         position: absolute;
         transform: translate(-50%);
         top:82%;
-        left:13%;
+        left:26%;
     }
 
     .linked-icon {
         position: absolute;
         transform: translate(-50%);
         top:73%;
-        left:35%;
+        left:71%;
     }
 
     .email-icon {
         position: absolute;
         transform: translate(-50%);
         top:83%;
-        left:35%;
+        left:71%;
     }
 
     .twitter-box {

@@ -1,7 +1,5 @@
 Next
--largen the font of the jquery
--center everything 
--make the whole thing responsive
+
 -check how to add a filter to the whole picture (google: can I change the color of an image css?)
 -challenge: make the whole thing arrive to a 404 screen.  
 
