@@ -3,13 +3,13 @@ html {
 }
 
 body {
-    background-image: url(../img/forest.jpeg);
+/*    background-image: url(../img/forest.jpeg);
     height: 100%;
     width: 100%;
     z-index: 2;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
 ul {
