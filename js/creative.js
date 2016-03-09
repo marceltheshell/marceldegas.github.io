@@ -45,4 +45,15 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $(function(){
+      $(".element").typed({
+        strings: ["Marcel Degas.", "a Software Engineer.",  "an Educator.", "a Language Enthusiast.", "a Writer.", "a Family Guy.", "a Stoic.", "ENFJ."],
+        typeSpeed: 100,
+        startDelay: 100, 
+        loop: true,
+        backDelay: 500,
+        showCursor: false,      
+      });
+    });
+
 })(jQuery); // End of use strict
