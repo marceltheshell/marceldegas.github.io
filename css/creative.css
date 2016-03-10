@@ -20,7 +20,8 @@
 }
 
 h1.three-title {
-    font-size: 3.5vw;
+    font-size: 40vw;
+    display: inline;
 }
 
 .page-scroll {
