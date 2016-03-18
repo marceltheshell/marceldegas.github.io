@@ -47,7 +47,7 @@
 
     $(function(){
       $(".element").typed({
-        strings: ["Marcel Degas.", "a Software Engineer.",  "a Smelly Cheese Lover.", "a Gym Rat.", "an Urban Botanist.", "a Polyglot.", "a Writer.", "a Family Guy.", "a Stoic.", "ENFJ."],
+        strings: ["Marcel Degas.", "a Software Engineer.",  "a Smelly Cheese Lover.", "a Gym Rat.", "a West Oakland Tree Planter.", "Fluent in French, Spanish and Arabic.", "a Writer.", "a Family Guy.", "a Stoic.", "ENFJ."],
         typeSpeed: 100,
         startDelay: 100, 
         loop: true,
