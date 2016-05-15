@@ -22,8 +22,8 @@ a:hover {
     height: 650px;
 }
 
-h1.three-title {
-    font-size: 40vw;
+h1.scrolling-title {
+    font-size: 8vh !important;
     display: inline;
 }
 
@@ -222,7 +222,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/header.jpeg) no-repeat center center fixed; 
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -249,6 +249,10 @@ header .header-content .header-content-inner h1 {
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
+}
+
+.header-content-inner {
+    height: 200px;
 }
 
 header .header-content .header-content-inner p {
