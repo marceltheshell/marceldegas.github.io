@@ -7,20 +7,19 @@ a:hover {
     color: #f05f40 !important;
 }
 
-#contact {
-    height:650px;
-}
-
-#about {
-    height: 650px;
-}
 #portfolio {
     height: 1000px;
 }
 
-#services {
-    height: 650px;
+#slider {
+    height:800px;
 }
+
+#macbook {
+    display:block;
+    margin: 10vh auto;
+}
+
 
 h1.scrolling-title {
     font-size: 8vh !important;
