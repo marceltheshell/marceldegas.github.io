@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "fonty";
+    src: url(fonty.ttf) format("truetype");
+}
+@font-face {
+ font-family: "fonty";
+ src: url("fonty.eot") /* EOT file for IE */
+}
+
+a{
+border:none;
+padding: 0;
+margin: 0;
+color: black;
+border-style: none;
+}
+
+img{border-style: none;}
+
+#tv_frame{
+	height: 615px;
+	background-image: url("../icons/frames/imac-tv.png");
+	position: relative;
+	background-repeat: no-repeat !important;
+	background-position: center top;
+    padding-left: 2px;
+}
+
+
+#tvbox_content{
+	width: 738px;
+	height: 417px;
+	background-color: white;
+	position: relative;
+	top:31px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius:3px;
+}
+
+#tvbox {
+	z-index:100;
+}
+
+.tv_screen {
+	width:738px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+.tv_screen div.screen {
+	width:738px;
+	height:417px;
+	display:block;
+}
+
+
+#tvbox .next,#tvbox .prev {
+	position:absolute;
+	top:177px;
+	left:-30px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+	cursor: pointer;
+}
+
+#tvbox .next {
+	left:745px;
+}
+
+
+.remote {
+	width:100px;
+	position: relative;
+	left:-3px;
+}
+
+.remote li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.remote li a {
+	display:block;
+	width:12px;
+	height:1px;
+	padding-top:12px;
+	background-image:url(../icons/remote-led.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.remote li.current a {
+	background-position:0 -12px;
+}
+
+
+.title_bar {
+	z-index:500;
+	position:absolute;
+	bottom:-65px;
+	left:0;
+	height:50px;
+	padding:0;
+	background-image: url(../icons/bg_bar.png);
+	background-repeat: repeat;
+	width:100%;
+	font-size:1.2em;
+	line-height:0.0;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+	font-family:"fonty";
+	text-shadow: 1px 1px 0px black;
+ }
+
+
+
+
+
