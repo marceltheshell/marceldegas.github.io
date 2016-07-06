@@ -111,12 +111,12 @@ img{border-style: none;}
 	background-image: url(../icons/bg_bar.png);
 	background-repeat: repeat;
 	width:100%;
-	font-size:1.2em;
+	font-size:2em;
 	line-height:0.0;
-	color:#fff;
+	color:#eb3812;
 	border-top:1px solid #000;
 	text-shadow:none;
-	font-family:"fonty";
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 	text-shadow: 1px 1px 0px black;
  }
 
