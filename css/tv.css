@@ -1,41 +1,39 @@
-@font-face {
-    font-family: "fonty";
-    src: url(fonty.ttf) format("truetype");
-}
-@font-face {
- font-family: "fonty";
- src: url("fonty.eot") /* EOT file for IE */
-}
-
 a{
-border:none;
-padding: 0;
-margin: 0;
-color: black;
-border-style: none;
+	border:none;
+	padding: 0;
+	margin: 0;
+	color: black;
+	border-style: none;
 }
 
-img{border-style: none;}
+img{
+	border-style: none;
+}
 
 #tv_frame{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
 	height: 615px;
-	background-image: url("../icons/frames/imac-tv.png");
+	background-image: url("../img/frames/imac-tv.png");
 	position: relative;
 	background-repeat: no-repeat !important;
 	background-position: center top;
-    padding-left: 2px;
+    /*padding-left: 2px;*/
 }
 
 
 #tvbox_content{
+	margin: 0 auto;
 	width: 738px;
 	height: 417px;
 	background-color: white;
 	position: relative;
 	top:31px;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius:3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:3px;
 }
 
 #tvbox {
@@ -46,7 +44,7 @@ img{border-style: none;}
 	width:738px;
 	overflow:hidden;
 	position:relative;
-	display:none;
+	/*display:none;*/
 }
 
 
@@ -56,27 +54,12 @@ img{border-style: none;}
 	display:block;
 }
 
-
-#tvbox .next,#tvbox .prev {
-	position:absolute;
-	top:177px;
-	left:-30px;
-	width:24px;
-	height:43px;
-	display:block;
-	z-index:101;
-	cursor: pointer;
-}
-
-#tvbox .next {
-	left:745px;
-}
-
-
 .remote {
-	width:100px;
-	position: relative;
-	left:-3px;
+	display: block;
+	margin: 0 auto;
+	width:137px;
+	position: relative;	
+
 }
 
 .remote li {

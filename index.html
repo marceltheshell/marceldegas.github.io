@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcel Degas Developer</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/typed.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/tv.css" />
     <link rel="stylesheet" href="css/creative.css">
     <script src="js/jquery.js"></script>
@@ -22,29 +21,17 @@
     <script src="js/wow.min.js"></script>
     <script src="js/tv.js"></script>
     <script src="js/creative.js"></script>
+    <script src="js/slider.js"></script>
     <script src="js/main.js"></script>
 </head>
 
 <body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    
+                <ul class="nav navbar-icons">
                     <li>
                         <a class="fa fa-github wow bounceIn big-fa-size" href="http://www.github.com/marceltheshell"></a>
-                    </li>
-                    <li>
-                        <a class="fa fa-lg fa-medium wow bounceIn big-fa-size" href="https://medium.com/@marceldegas"></a>
                     </li>
                     <li>
                         <a class="fa fa-twitter wow bounceIn big-fa-size" href="https://twitter.com/marceldegas"></a>
@@ -62,58 +49,59 @@
 
     <div class="main">
         <div class="main-content">
-            <div class="scrolling-title-box">
-                <h1 class="scrolling-title">I am </h1><h1 class="scrolling-title element">Marcel Degas</h1>
+            <div class="scrolling-title-container">
+                <h1 class="scrolling-title"></h1><h1 class="scrolling-title element"></h1>
             </div>
-            <div>
-                <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Projects</a>
+            <div class="button-container">
+                <a href="#portfolio" class="btn btn-xl page-scroll">Projects</a>
             </div>
         </div>    
         
     </div>
     
-
     <div id="portfolio">
-
-        <center>
+        
+        <div class="prev-container">
+            <a class="fa fa-chevron-left fa-3x wow bounceIn" href="#"></a>
+        </div>
 
         <div id="tv_frame">
-            
             <div id="tvbox_content">
-                
                 <div id="tvbox">
                     <div class="tv_screen">
                         <div class="screen">
                             <a href="#" title="Photo 1"><img src="img/portfolio/kls.png" width="738" height="417" alt="Photo 1"></a>
-                            <div class="title_bar" style="bottom:0">
-                                <p>Want to separate a heterogenious group of people into perfect tables groups? Use</p><a href="http://klassroomapp.herokuapp.com">Klassroom</a>
-                            </div>
+                            <!-- <div class="title_bar" style="bottom:0">
+                                <a href="http://klassroomapp.herokuapp.com">Klassroom</a>
+                            </div> -->
                         </div>
                         <div class="screen">
                             <a href="#" title="Photo 2"><img src="img/portfolio/wnstr.png" width="738" height="417" alt="Photo 2"></a>
-                            <div class="title_bar">
-                                <p>Use</p><a href="http://winestar.herokuapp.com/">Winestar</a><p>to create a customized wine-tasting itinerary through Napa or Sonoma.</p>
-                            </div>
+                           <!--  <div class="title_bar">
+                                <a href="http://winestar.herokuapp.com/">Winestar</a>
+                            </div> -->
                         </div>
                         <div class="screen">
                             <a href="#" title="Photo 3" ><img src="img/portfolio/mfa.png" width="738" height="417" alt="Photo 3"></a>
-                            <div class="title_bar">
-                                <p>Buy a jar of fresh</p><a href="http://missionfreshair.com">Alaskan air</a><p>to raise awareness around California air pollution issues.</p>
-                            </div>
+                           <!--  <div class="title_bar">
+                                <a href="http://missionfreshair.com">Alaskan air</a>
+                            </div> -->
                         </div>
                         <div class="screen">
                             <a href="#" title="Photo 4"><img src="img/portfolio/cc.png" width="738" height="417" alt="Photo 4"></a>
-                            <div class="title_bar">
-                                <p>Enter your start and destination addresses and see real-time<a href="">Uber estimates</a><p>and routes!</p>
-                            </div>
+                           <!--  <div class="title_bar">
+                                <a href="cheaperchoice.herokuapp.com/">Uber estimates</a>
+                            </div> -->
                         </div>
-                    </div>
-                    <a href="#" class="prev"><img src="icons/prev.png" width="24" height="43" alt="Prev"></a>
-                    <a href="#" class="next"><img src="icons/next.png" width="24" height="43" alt="Next"></a>
+                    </div> 
                 </div>
             </div>
         </div>
-        </center>
+       
+        <div class="next-container">
+            <a href="#" class="fa fa-chevron-right fa-3x wow bounceIn"></a>
+        </div>
+    
     </div>
 </body>
 
